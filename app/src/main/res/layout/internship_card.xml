@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:backgroundTint="#dcbdd4"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.github.jivimberg.library.AutoResizeTextView
+            android:id="@+id/internshipname"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="3dp"
+            android:text="Summer Internship"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.github.jivimberg.library.AutoResizeTextView
+            android:id="@+id/internshipurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="#194cda"
+            android:text="url"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/Goto"
+            android:text="Go to Link"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
